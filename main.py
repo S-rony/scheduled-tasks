@@ -13,8 +13,6 @@ import random
 import smtplib
 MY_EMAIL = os.environ.get("MY_EMAIL")
 MY_PASSWORD = os.environ.get("MY_PASSWORD")
-MY_EMAIL = "soubhiksinha1996@gmail.com"
-MY_PASSWORD = "mgawtbzgqrybhbob"
 today = datetime.now()
 today_tuple = (today.month, today.day)
 
